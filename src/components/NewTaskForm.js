@@ -29,7 +29,7 @@ function NewTaskForm({ categories, onTaskFormSubmit }) {
       </label>
 
       <input type="submit" value="Add task" />
-
+      
     </form>
   );
 }

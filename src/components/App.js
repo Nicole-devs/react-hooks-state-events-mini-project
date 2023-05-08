@@ -29,6 +29,9 @@ function App({ taskData, categories }) {
   return (
 
     <div className="App">
+      <h2>My tasks</h2>
+      <NewTaskForm categories={categories.filter(category => category !== 'All')} onTaskFormSubmit={handleAddTask} />
+    
 
     <div className="task">
 
